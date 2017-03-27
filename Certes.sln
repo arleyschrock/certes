@@ -31,9 +31,12 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Certes.Cli.Shared", "src\Ce
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Certes.Net", "src\Certes.Net\Certes.Net.csproj", "{7C418BBE-4C37-4997-B5C1-DD0E86B49354}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Certes.Net452", "src\Certes.Net452\Certes.Net452.csproj", "{0580349C-C8BC-4449-AF25-6EC2AFBBF4E1}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		src\Certes.Shared\Certes.Shared.projitems*{0183bdd7-b714-4405-bdd2-e9564dc1f6d2}*SharedItemsImports = 13
+		src\Certes.Shared\Certes.Shared.projitems*{0580349c-c8bc-4449-af25-6ec2afbbf4e1}*SharedItemsImports = 4
 		src\Certes.Cli.Shared\Certes.Cli.Shared.projitems*{4a526f37-41a9-4f50-a023-1588505fb3ad}*SharedItemsImports = 13
 		src\Certes.Shared\Certes.Shared.projitems*{7c418bbe-4c37-4997-b5c1-dd0e86b49354}*SharedItemsImports = 4
 	EndGlobalSection
@@ -58,6 +61,10 @@ Global
 		{7C418BBE-4C37-4997-B5C1-DD0E86B49354}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C418BBE-4C37-4997-B5C1-DD0E86B49354}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C418BBE-4C37-4997-B5C1-DD0E86B49354}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0580349C-C8BC-4449-AF25-6EC2AFBBF4E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0580349C-C8BC-4449-AF25-6EC2AFBBF4E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0580349C-C8BC-4449-AF25-6EC2AFBBF4E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0580349C-C8BC-4449-AF25-6EC2AFBBF4E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,5 +76,6 @@ Global
 		{0183BDD7-B714-4405-BDD2-E9564DC1F6D2} = {7B11358C-CCDB-4A64-8CAF-9AA29AFD7DE3}
 		{4A526F37-41A9-4F50-A023-1588505FB3AD} = {7B11358C-CCDB-4A64-8CAF-9AA29AFD7DE3}
 		{7C418BBE-4C37-4997-B5C1-DD0E86B49354} = {7B11358C-CCDB-4A64-8CAF-9AA29AFD7DE3}
+		{0580349C-C8BC-4449-AF25-6EC2AFBBF4E1} = {7B11358C-CCDB-4A64-8CAF-9AA29AFD7DE3}
 	EndGlobalSection
 EndGlobal
