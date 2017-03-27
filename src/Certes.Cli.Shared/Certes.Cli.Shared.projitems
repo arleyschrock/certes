@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>4a526f37-41a9-4f50-a023-1588505fb3ad</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Certes.Cli.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)AcmeContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Command.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DictionaryExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FileUtil.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Options\AuthorizationOptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Options\CertificateOptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Options\OptionsBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Options\RegisterOptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Processors\AuthorizationCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Processors\CertificateCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Processors\CommandBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Processors\RegisterCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Program.cs" />
+  </ItemGroup>
+</Project>

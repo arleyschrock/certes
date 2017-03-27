@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp1.0</TargetFramework>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
     <NoWarn>$(NoWarn);CS1591</NoWarn>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
@@ -24,5 +24,7 @@
     <PackageReference Include="NLog" Version="5.0.0-beta03-tryoutMutex" />
     <PackageReference Include="System.CommandLine" Version="0.1.0-e161104-2" />
   </ItemGroup>
+
+  <Import Project="..\Certes.Cli.Shared\Certes.Cli.Shared.projitems" Label="Shared" />
 
 </Project>

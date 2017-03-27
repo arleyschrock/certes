@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>0183bdd7-b714-4405-bdd2-e9564dc1f6d2</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Certes.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Certificates\dst-root-ca-x3.cer" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Certificates\fake-le-intermediate-x1.cer" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Certificates\fake-le-root-x1.cer" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Certificates\lets-encrypt-x3-cross-signed.cer" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Certificates\lets-encrypt-x4-cross-signed.cer" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)AcmeClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Acme\AcmeAccount.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Acme\AcmeCertificate.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Acme\AcmeError.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Acme\AcmeHttpHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Acme\AcmeKeyedResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Acme\AcmeRespone.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Acme\AcmeResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Acme\Authorization.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Acme\AuthorizationIdentifier.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Acme\AuthorizationIdentifierTypes.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Acme\Certificate.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Acme\Challenge.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Acme\ChallengeTypes.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Acme\ChallengeValidation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Acme\EntityBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Acme\EntityStatus.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Acme\IAcmeHttpHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Acme\Registration.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Acme\RelLink.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Acme\ResourceTypes.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Acme\RevokeCertificate.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Acme\WellKnownServers.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IAcmeClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Json\JsonUtil.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Jws\AccountKey.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Jws\IAccountKey.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Jws\JwsConvert.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pkcs\CertificationRequestBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pkcs\CertificationRequestBuilderBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pkcs\ICertificationRequestBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pkcs\KeyInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pkcs\PfxBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pkcs\SignatureAlgorithm.cs" />
+  </ItemGroup>
+</Project>
