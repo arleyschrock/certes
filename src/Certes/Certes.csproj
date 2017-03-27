@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Description>A client implantation for the Automated Certificate Management Environment (ACME) protocol</Description>
     <AssemblyTitle>Certes ACME Client</AssemblyTitle>
-    <TargetFramework>netstandard1.3</TargetFramework>
+    <TargetFramework>netstandard1.6</TargetFramework>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <AssemblyName>Certes</AssemblyName>

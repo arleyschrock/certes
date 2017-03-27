@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <!--*-->
+    <id>Certes.Net</id>
+    <!--*-->
+    <version>1.0</version>
+    <title>Certes .NET Runtime</title>
+    <!--*-->
+    <authors>arleyschrock</authors>
+    <owners>arleyschrock</owners>
+    <licenseUrl>https://github.com/arleyschrock/certes/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/arleyschrock/certes</projectUrl>
+    <!--
+    <iconUrl></iconUrl>
+-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--*-->
+    <description>.NET ACME client for https://letsencrypt.org</description>
+    <!--*-->
+    <releaseNotes>https://github.com/arleyschrock/certes/README.md</releaseNotes>
+    <copyright>Copyright @ 2017</copyright>
+    <tags>Certes letsencrypt lesencrypt.org ACME</tags>
+    <dependencies>
+   <group>
+      <dependency id="Newtonsoft.Json" version="8.0.3" />
+      <dependency id="BouncyCastle" version="1.8.1" />
+   </group>
+</dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\certes.dll" target="lib" />
+  </files>
+</package>
