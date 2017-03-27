@@ -15,7 +15,7 @@ certificates using .NET or command line, and it is **free**.
 
 # Get Certified in 5 Minutes
 
-Install [.NET Core](https://www.microsoft.com/net/core)
+Install [.NET Core](https://www.microsoft.com/net/core) or don't.... your there are .NET 4.5.2+ projects (4.6.2 project is not needed and will someday be removed)
 
 Download the [latest release](https://github.com/fszlin/certes/releases), 
    and extract the files
